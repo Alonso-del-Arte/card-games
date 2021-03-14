@@ -1,5 +1,7 @@
 package cards.ranks
 
-object Four {
+object Four extends Rank {
+  override val character: Char = '4'
+  override val word: String = "Ace"
 
 }
